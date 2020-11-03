@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/hanami_blog_test.sqlite</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hanami_blog_development" uuid="2b14c541-e185-47f3-95c4-ae8f4e73eaaf">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/hanami_blog_development.sqlite</jdbc-url>
+    </data-source>
   </component>
 </project>
